@@ -4,7 +4,7 @@ pub fn pow(base: i64, exponent: usize) -> i64 {
         return 1;
     }
     for _ in 0..exponent {
-        res *= base as i64;
+        res *= base;
     }
     res
 }
